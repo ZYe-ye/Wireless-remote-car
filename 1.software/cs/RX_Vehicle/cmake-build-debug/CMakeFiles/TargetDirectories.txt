@@ -1,3 +1,0 @@
-G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/CMakeFiles/RX_Vehicle.elf.dir
-G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/CMakeFiles/edit_cache.dir
-G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
