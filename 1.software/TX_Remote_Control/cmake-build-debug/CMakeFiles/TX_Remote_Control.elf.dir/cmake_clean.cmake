@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/TX_Remote_Control.elf.dir/Core/Src/adc.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Core/Src/dma.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Core/Src/gpio.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Core/Src/main.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Core/Src/spi.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Core/Src/syscalls.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Core/Src/usart.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Hardware/NRF24L01/bsp_nrf24l01.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/Hardware/serial/serial.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/System/delay/delay.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/System/retarget/retarget.c.obj"
+  "CMakeFiles/TX_Remote_Control.elf.dir/startup/startup_stm32f103xb.s.obj"
+  "TX_Remote_Control.elf"
+  "TX_Remote_Control.elf.manifest"
+  "TX_Remote_Control.elf.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/TX_Remote_Control.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

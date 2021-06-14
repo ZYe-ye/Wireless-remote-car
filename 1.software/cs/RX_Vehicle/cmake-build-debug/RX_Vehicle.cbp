@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RX_Vehicle"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RX_Vehicle.elf">
+				<Option output="G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/RX_Vehicle.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Inc"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/System/sys"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/System/delay"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/System/retarget"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/NRF24L01"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/motor"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/robot_arm"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 RX_Vehicle.elf"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RX_Vehicle.elf/fast">
+				<Option output="G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/RX_Vehicle.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Inc"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/System/sys"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/System/delay"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/System/retarget"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/NRF24L01"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/motor"/>
+					<Add directory="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/robot_arm"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 RX_Vehicle.elf/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Inc/gpio.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Inc/main.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Inc/spi.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Inc/stm32f1xx_it.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Inc/tim.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Inc/usart.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Src/gpio.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Src/main.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Src/spi.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Src/stm32f1xx_it.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Src/syscalls.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Src/system_stm32f1xx.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Src/tim.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Core/Src/usart.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/NRF24L01/bsp_nrf24l01.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/NRF24L01/bsp_nrf24l01.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/motor/motor.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/motor/motor.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/robot_arm/robot_arm.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/Hardware/robot_arm/robot_arm.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/STM32F103C8Tx_FLASH.ld">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/System/delay/delay.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/System/delay/delay.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/System/retarget/retarget.c">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/System/retarget/retarget.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/System/sys/sys.h">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/startup/startup_stm32f103xb.s">
+			<Option target="RX_Vehicle.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/RX_Vehicle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

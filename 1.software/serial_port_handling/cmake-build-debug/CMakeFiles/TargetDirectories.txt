@@ -1,0 +1,3 @@
+G:/project_development/Telecar/1.software/serial_port_handling/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/project_development/Telecar/1.software/serial_port_handling/cmake-build-debug/CMakeFiles/serial_port_handling.elf.dir
+G:/project_development/Telecar/1.software/serial_port_handling/cmake-build-debug/CMakeFiles/rebuild_cache.dir

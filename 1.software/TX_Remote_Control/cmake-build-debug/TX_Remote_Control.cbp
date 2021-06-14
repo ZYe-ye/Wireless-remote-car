@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TX_Remote_Control"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TX_Remote_Control.elf">
+				<Option output="G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/TX_Remote_Control.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Inc"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/System/sys"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/System/delay"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/System/retarget"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Hardware/NRF24L01"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Hardware/serial"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 TX_Remote_Control.elf"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TX_Remote_Control.elf/fast">
+				<Option output="G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/TX_Remote_Control.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Inc"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/System/sys"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/System/delay"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/System/retarget"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Hardware/NRF24L01"/>
+					<Add directory="G:/project_development/Telecar/1.software/TX_Remote_Control/Hardware/serial"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="d:\program files\stm32cube\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 TX_Remote_Control.elf/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;G:/project_development/Telecar/1.software/TX_Remote_Control/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Inc/adc.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Inc/dma.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Inc/gpio.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Inc/main.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Inc/spi.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Inc/stm32f1xx_it.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Inc/usart.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Src/adc.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Src/dma.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Src/gpio.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Src/main.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Src/spi.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Src/stm32f1xx_it.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Src/syscalls.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Src/system_stm32f1xx.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Core/Src/usart.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Hardware/NRF24L01/bsp_nrf24l01.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Hardware/NRF24L01/bsp_nrf24l01.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Hardware/serial/serial.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/Hardware/serial/serial.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/STM32F103C8Tx_FLASH.ld">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/System/delay/delay.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/System/delay/delay.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/System/retarget/retarget.c">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/System/retarget/retarget.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/System/sys/sys.h">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/startup/startup_stm32f103xb.s">
+			<Option target="TX_Remote_Control.elf"/>
+		</Unit>
+		<Unit filename="G:/project_development/Telecar/1.software/TX_Remote_Control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

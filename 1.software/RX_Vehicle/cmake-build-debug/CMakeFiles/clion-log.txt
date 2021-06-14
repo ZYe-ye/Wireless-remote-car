@@ -1,0 +1,5 @@
+"D:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_C_COMPILER=D:/Program Files/STM32Cube/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=D:/Program Files/STM32Cube/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" G:\project_development\Telecar\1.software\RX_Vehicle
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: G:/project_development/Telecar/1.software/RX_Vehicle/cmake-build-debug
